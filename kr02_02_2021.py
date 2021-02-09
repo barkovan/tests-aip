@@ -5,7 +5,7 @@ def task_1(two_dim_words):
         list_ready.extend(list_animal[i])
     list_ready.sort(key=len and str.upper)
     print(sorted_words)
-        return sorted_words
+    return sorted_words
 
 
 def task_3(numbers):
@@ -59,7 +59,7 @@ def task_5(lst1, lst2):
         else:
             continue
     print(sorted(diff))
-        return diff
+    return diff
 
 
 def task_6(lst):
