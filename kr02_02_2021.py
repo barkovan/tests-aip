@@ -4,7 +4,7 @@ sorted_words = []
 for i in range(len(list_animal)):
     list_ready.extend(list_animal[i])
 list_ready.sort(key=len and str.upper)
-print(list_ready)
+print(sorted_words)
     return sorted_words
 
 
@@ -15,7 +15,7 @@ def task_3(numbers):
         Финальное значение должно быть помещено в переменную dict_min.
         """
 
-    return dict_min
+    pass
 
 
 def task_4_1(words):
@@ -25,7 +25,7 @@ def task_4_1(words):
         Финальное значение должно быть помещено в переменную res.
         """
 
-    return pass
+    pass
 
 
 def task_4_2(words):  # можно сделать тесты
@@ -35,7 +35,7 @@ def task_4_2(words):  # можно сделать тесты
         Финальное значение должно быть помещено в переменную res.
         """
 
-    return pass
+    pass
 
 
 def task_4_3(words):
@@ -45,7 +45,7 @@ def task_4_3(words):
         Финальное значение должно быть помещено в переменную res.
         """
 
-    return pass
+    pass
 
 
 def task_5(lst1, lst2):
@@ -55,7 +55,7 @@ diff = []
 set2 = set(lst2)
 for i in range(len(lst1)):
     if lst1[i] not in set2:
-        spec.extend(str(lst1[i]))
+        diff.extend(str(lst1[i]))
     else:
         continue
 print(sorted(diff))
@@ -69,5 +69,5 @@ def task_6(lst):
         Финальное значение должно быть помещено в переменную res.
         """
 
-    return pass
+    pass
 
