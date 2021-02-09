@@ -2,8 +2,8 @@ def task_1(two_dim_words):
     two_dim_words = [["корова", "овечка", "коза"], ["гусь", "цыпленок", "курица"]]
     sorted_words = []
     for i in range(len(list_animal)):
-        list_ready.extend(list_animal[i])
-    list_ready.sort(key=len and str.upper)
+        sorted_words.extend(two_dim_words[i])
+    sorted_words.sort(key=len and str.upper)
     print(sorted_words)
     return sorted_words
 
