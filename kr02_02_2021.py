@@ -2,7 +2,8 @@ def task_1(two_dim_words):
     sorted_words = []
     for i in range(len(two_dim_words)):
         sorted_words.extend(two_dim_words[i])
-    sorted_words.sort(key=len and str.upper)
+    sorted_words.sort(key=len)
+    sorted_words.sort()
     print(sorted_words)
     return sorted_words
 
