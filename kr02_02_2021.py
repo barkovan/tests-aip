@@ -1,5 +1,4 @@
 def task_1(two_dim_words):
-    two_dim_words = [["корова", "овечка", "коза"], ["гусь", "цыпленок", "курица"]]
     sorted_words = []
     for i in range(len(two_dim_words)):
         sorted_words.extend(two_dim_words[i])
@@ -49,8 +48,6 @@ def task_4_3(words):
 
 
 def task_5(lst1, lst2):
-    lst1 = [1, 4, 7, 5, 8]
-    lst2 = [1, 3, 8, 4, 3]
     diff = []
     set2 = set(lst2)
     for i in range(len(lst1)):
