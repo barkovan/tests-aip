@@ -1,5 +1,4 @@
 def task_1(two_dim_words):
-    two_dim_words = [["корова", "овечка", "коза"], ["гусь", "цыпленок", "курица"]]
     sorted_words = []
     for i in range(len(two_dim_words)):
         sorted_words.extend(two_dim_words[i])
